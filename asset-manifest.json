@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cutecat-react/static/css/main.669bf415.css",
+    "main.js": "/cutecat-react/static/js/main.c6a204d6.js",
+    "index.html": "/cutecat-react/index.html",
+    "main.669bf415.css.map": "/cutecat-react/static/css/main.669bf415.css.map",
+    "main.c6a204d6.js.map": "/cutecat-react/static/js/main.c6a204d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.669bf415.css",
+    "static/js/main.c6a204d6.js"
+  ]
+}
