@@ -1,0 +1,46 @@
+.contact-card {
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Ajuste conforme necessário */
+    padding: 15px;
+    width: 250px; /* Ajuste conforme necessário */
+    text-align: center; /* Centraliza o conteúdo */
+  
+    /* Adiciona sombra para um efeito mais sutil */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+  }
+
+  
+  .contact-card img {
+    width: 100px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Torna a imagem circular */
+    margin-bottom: 10px; /* Espaço entre a imagem e o título */
+  }
+  
+  .info-group {
+    display: flex;
+    align-items: center;
+    margin-top: -5px; /* Espaço entre os grupos de informações */
+  }
+  
+  .info-group img {
+    width: 20px; /* Ajuste conforme necessário */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+  }
+ 
+  .email {
+    vertical-align: middle;
+  }
+  
+  /* Estilo adicional para o título */
+  .contact-card h3 {
+    margin: 0; /* Remove a margem padrão do título */
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo adicional para os parágrafos */
+  .contact-card p {
+    margin: 0; /* Remove a margem padrão dos parágrafos */
+  }
+
+  

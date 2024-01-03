@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Contact from "./Contact";
+import cutecat from "./cutecat.jpeg";
+import catsmoking from "./images/catsmoking.jpeg"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+export default function App() {
+    return (
+        <div className="contacts">
+            <Contact
+            img={cutecat}
+            name="Mr. Whiskerson" 
+            phone="(212) 555-1234"
+            email="mr.whiskerson@catnap.meow"
+            />
+             <Contact
+            img={catsmoking}
+            name="Mr. Fluffykins" 
+            phone="(212) 555-2345"
+            email="fluff@meow.com"
+            />
+
+        </div>
+    )
+    }
